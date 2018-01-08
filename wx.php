@@ -4,6 +4,8 @@
  * 微信公众号开发者入口文件
  *
  */
+header("Content-type: text/html; charset=utf-8");
+
 require_once 'config.inc.php';
 $receive = new \Wechat\WechatReceive();
 
